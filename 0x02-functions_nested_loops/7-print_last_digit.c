@@ -12,5 +12,6 @@ if (lastLetter < 0)
 {
 lastLetter *= -1;
 }
-return (lastLetter + '0');
+_putchar(lastLetter + '0');
+return (lastLetter);
 }
