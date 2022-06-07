@@ -7,5 +7,10 @@
  */
 int print_last_digit(int c)
 {
-return (c % 10);
+int lastLetter = c % 10;
+if (lastLetter < 0)
+{
+lastLetter *= -1;
+}
+return ((c % 10) + '0');
 }
