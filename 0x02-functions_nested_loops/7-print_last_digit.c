@@ -12,5 +12,5 @@ if (lastLetter < 0)
 {
 lastLetter *= -1;
 }
-return ((c % 10) + '0');
+return (lastLetter + '0');
 }
