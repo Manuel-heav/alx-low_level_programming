@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_last_digit - the function that gets us the last digit
  * @c: the number to restract the last digit from
