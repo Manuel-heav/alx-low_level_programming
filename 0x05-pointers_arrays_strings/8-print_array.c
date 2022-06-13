@@ -12,5 +12,5 @@ for (i = 0; i < n; i++)
 {
 printf("%s", a[i] + ",");
 }
-printf("\n")
+printf("\n");
 }
