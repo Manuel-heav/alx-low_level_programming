@@ -13,7 +13,10 @@ int i = 0;
 int l = strlen(str);
 while (i > l)
 {
-_putchar(str[i * 2]);
+if (i % 2 == 0)
+{
+_putchar(str[i]);
+}
 i++;
 }
 _putchar('\n');
