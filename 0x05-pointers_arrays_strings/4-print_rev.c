@@ -10,6 +10,6 @@ void print_rev(char *s)
 {
 int l = strlen(s);
 while(l--)
-    printf("%s\n", s[l]);
-printf('\n')
+    _putchar("%s\n", s[l]);
+_putchar('\n')
 }
