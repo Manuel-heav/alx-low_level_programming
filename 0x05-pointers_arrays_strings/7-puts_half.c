@@ -21,7 +21,7 @@ l++;
 else
 {
 int l2 = l / 2;
-while (l < l1)
+while (l < l2)
 {
 _putchar(str[l]);
 l++;
