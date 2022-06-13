@@ -12,7 +12,7 @@ int l = strlen(str);
 if (l % 2 != 0)
 {
 int l1 = (l - 1) / 2;
-while (l < l1)
+while (l > l1)
 {
 _putchar(str[l]);
 l++;
@@ -21,7 +21,7 @@ l++;
 else
 {
 int l2 = l / 2;
-while (l < l2)
+while (l > l2)
 {
 _putchar(str[l]);
 l++;
