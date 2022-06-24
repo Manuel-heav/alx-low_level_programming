@@ -1,1 +1,1 @@
-static libraries readme
+argc and argv readme
