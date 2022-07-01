@@ -220,7 +220,7 @@ void print_me(int *sum_result, int len_r)
  * main - multiply 2 input #'s of large lengths and print result or print Error
  * @argc: input count of args
  * @argv: input array of string args
- * Return: 0, Success
+ * Return: 0 Success
  */
 
 int main(int argc, char **argv)
@@ -268,5 +268,4 @@ int main(int argc, char **argv)
     exit(98);
   
   print_me(sum_result, len_r);
-  
   return (0); }
